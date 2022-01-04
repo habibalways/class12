@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Age calculator</title>
+  </head>
+  <body>
+
+    
+     <!--==================== age calculator ==========================-->
+
+
+     <h1 class="text-center my-3 ">Age</h1>
+
+
+    <div class="card w-50 m-auto  design">
+        <div class="card-header">
+            <h2>Age calculator</h2>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input id="name" class="form-control" type="text" placeholder="Name">
+            </div> <br>
+            <div class="form-group">
+                <input id="year" class="form-control" type="number" placeholder="Birth-year">
+            </div> <br>
+            <div class="form-group">
+                <input id="button" class="form-control btn btn-primary" type="submit" value="Age check">
+            </div>
+            <div class="card-footer">
+                <p id="output"></p>
+            </div>
+        </div>
+    </div> 
+
+
+
+
+
+    <!--================ Marrige age calculator====================== -->
+    <br><br><br>
+
+   
+    <h1 class="text-center my-3 ">Marrige</h1>
+   <div class="card w-50 m-auto  bg-succees">
+       <div class="card-header">
+           <h2>Marrige calculator</h2>
+       </div>
+       <div class="card-body">
+           <div class="form-group">
+               <input id="naam" class="form-control" type="text" placeholder="Name">
+           </div> <br>
+
+           <div class="form-group">
+            <input id="sal" class="form-control" type="text" placeholder="Year">
+        </div> <br>
+
+        <div class="form-group">
+            <input id="agebtn" class="form-control btn btn-primary" type="submit" value="check the marrige age">
+        </div>
+        <div class="card-footer">
+            <p id="result"></p>
+        </div>
+       </div>
+   </div>
+
+
+
+      <!--================ Currency converter ==================-->
+
+
+      <h1 class="text-center my-3 ">Currency</h1>
+
+   <div class="card w-50 m-auto mt-5">
+       <div class="card-header">
+           <h2>Currency converter</h2>
+       </div>
+       <div class="card-body">
+           <div class="form-group">
+               <input id="bangladesh" type="text" placeholder="Tk/amount">
+           </div> <br>
+
+           <div class="form-group">
+               <select name="" id="currency">
+                   <option selected value="">-Select-</option>
+                   <option>USD</option>
+                   <option>CAD</option>
+                   <option>Pound</option>
+                   <option>Euro</option>
+               </select>
+           </div> <br>
+           <div class="form-group">
+               <input id="currencyCheck" class="btn btn-primary" type="submit" value="check the Currency">
+           </div>
+           <div class="card-footer">
+               <p id="outout"></p>
+           </div>
+       </div>
+   </div>
+
+
+
+
+
+   
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
